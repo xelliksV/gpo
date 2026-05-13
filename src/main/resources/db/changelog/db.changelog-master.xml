@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+
+    <include file="db/changelog/001-create-viewers-table.sql"/>
+    <include file="db/changelog/002-create-academic-disciplines-table.sql"/>
+    <include file="db/changelog/003-create-learning-groups-table.sql"/>
+    <include file="db/changelog/004-create-teachers-table.sql"/>
+    <include file="db/changelog/005-create-lessons-table.sql"/>
+    <include file="db/changelog/006-create-homeworks-table.sql"/>
+    <include file="db/changelog/007-create-tasks-table.sql"/>
+    <include file="db/changelog/008-create-attendance-records-table.sql"/>
+    <include file="db/changelog/009-create-quiz-details-table.sql"/>
+    <include file="db/changelog/010-create-question-answers-table.sql"/>
+
+</databaseChangeLog>
